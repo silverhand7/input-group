@@ -5,5 +5,10 @@
 <script>
 export default {
   props: ['index', 'resource', 'resourceName', 'resourceId', 'field'],
+  created() {
+    if (this.field.addonDisplayDetail) {
+      this.field.value += ' ' + this.field.addonText
+    }
+  }
 }
 </script>

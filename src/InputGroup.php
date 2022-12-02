@@ -27,10 +27,16 @@ class InputGroup extends Field
         ]);
     }
 
-    public function addonDisplayIndex(Bool $bool = true)
+    public function addonDisplayIndex(Bool $bool = false)
     {
         return $this->withMeta([
             'addonDisplayIndex' => $bool
+        ]);
+    }
+
+    public function addonDisplayDetail(Bool $bool = false) {
+        return $this->withMeta([
+            'addonDisplayDetail' => $bool
         ]);
     }
 }
