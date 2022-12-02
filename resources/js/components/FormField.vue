@@ -17,7 +17,7 @@
             :id="field.attribute"
             type="text"
             class="w-full form-control form-input form-input-bordered"
-            :class="[field.addonPosition === 'left' ? 'rounded-l-none' : 'rounded-r-none',  errorClasses]"
+            :class="[field.addonPosition === 'left' ? 'rounded-l-none' : 'border-r-0 rounded-r-none',  errorClasses]"
             :placeholder="field.name"
             v-model="value"
           />
