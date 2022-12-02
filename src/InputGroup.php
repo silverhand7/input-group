@@ -13,17 +13,24 @@ class InputGroup extends Field
      */
     public $component = 'input-group';
 
-    public function addonPosition($position = 'left')
+    public function addonPosition(String $position = 'left')
     {
         return $this->withMeta([
             'addonPosition' => $position,
         ]);
     }
 
-    public function addonText($text = '')
+    public function addonText(String $text = '')
     {
         return $this->withMeta([
             'addonText' => $text
+        ]);
+    }
+
+    public function addonDisplayIndex(Bool $bool = true)
+    {
+        return $this->withMeta([
+            'addonDisplayIndex' => $bool
         ]);
     }
 }

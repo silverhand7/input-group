@@ -1,5 +1,5 @@
 <template>
-  <span>{{ fieldValue }}</span>
+  <span>{{ fieldValue }} {{ field.addonDisplayIndex ? field.addonText : '' }}</span>
 </template>
 
 <script>
