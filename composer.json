@@ -1,6 +1,6 @@
 {
     "name": "silverhand7/input-group",
-    "description": "A Laravel Nova field.",
+    "description": "Laravel Nova Input Group Addon Package",
     "keywords": [
         "laravel",
         "nova"
